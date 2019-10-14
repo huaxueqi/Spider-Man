@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="" />
+    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo12$GoodsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo14$GoodsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Fork_join/ForkJoinTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/JSON/helloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/JSON/json输出.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/LIST集合/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/META-INF/HUAXUEQI.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/Demo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/demo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/stream类/student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/公平锁和非公平锁/Demo8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/函数式编程/ConsumerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/RandomListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/eight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/eighteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/eleven.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fifteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/five.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/four.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fourteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/nine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/nineteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/one.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/seven.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/seventeen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/six.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ten.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/thirteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/three.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twelve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty_five.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty_four.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty_one.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty_three.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/twenty_two.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/two.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/加密/Xin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/大数计算器/jisuanqi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/序列化/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/序列化/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo1$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo2$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo4$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/循环屏障/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/正则/ZZ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/正则/hua1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/testLongAdder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/Demo5$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/Demo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/qwer1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/qwer1$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/qwer1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/testThreadPool$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/testThreadPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/深拷贝/shenClone$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/深拷贝/shenClone$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/深拷贝/shenClone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费/ConsumeThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费/MyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费/ProduceThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费1/ConsumeThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费1/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费1/Produce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/生产消费1/ProduceThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1$T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/语法/qufan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/语法/qwer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/语法/testBIG.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/语法/testEmpty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/语法/timeout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/阻塞队列/Demo1$Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/阻塞队列/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/阻塞队列/Demo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/阻塞队列/Demo4$Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/阻塞队列/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/限流算法/Demo2$BucketLimit$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/限流算法/Demo2$BucketLimit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/限流算法/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/限流算法/LouTong.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/限流算法/tong.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/高并发/Demo1.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/剑指/twenty_three.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -358,12 +479,20 @@
       <workItem from="1571016398077" duration="173000" />
       <workItem from="1571016593142" duration="58000" />
       <workItem from="1571016674534" duration="459000" />
-      <workItem from="1571018387272" duration="47000" />
+      <workItem from="1571018387272" duration="295000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1571018646227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571018646227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163656000" />
+    <option name="totallyTimeSpent" value="163904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,8 +507,8 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8068411" visible="true" weight="0.20845272" />
-      <window_info id="Structure" order="1" sideWeight="0.19315895" side_tool="true" visible="true" weight="0.20845272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8072776" visible="true" weight="0.20845272" />
+      <window_info id="Structure" order="1" sideWeight="0.19272237" side_tool="true" visible="true" weight="0.20845272" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -396,7 +525,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.3301887" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007163" side_tool="true" weight="0.3301887" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,6 +571,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,8 +1169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/剑指/twenty_three.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
