@@ -28,7 +28,7 @@ public class twenty_seven {
             return (ArrayList) resultList;
         //递归的初始值为（str数组，空的list，初始下标0）
         //fun(str.toCharArray(), resultList, 0);
-          peae(str.toCharArray(), 0, resultList );
+        peae(str.toCharArray(), 0, resultList );
         //Collections.sort(resultList);
         Collections.sort(resultList);
         return (ArrayList) resultList;
