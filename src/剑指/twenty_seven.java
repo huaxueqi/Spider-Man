@@ -13,8 +13,6 @@ public class twenty_seven {
         t.Permutation(str).forEach(l -> {
             System.out.println(l);
         });
-
-
         //twenty_seven.peae(c,0);
       /*  List list = new ArrayList<Character>();
         for(int m=1;m<=c.length;m++){
