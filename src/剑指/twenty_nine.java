@@ -8,14 +8,15 @@ import java.util.stream.Collectors;
 public class twenty_nine {
     public static void main(String[] args) {
        int a[]={4,5,1,6,2,7,3,8};
-        twenty_nine.quickSort(a);
-       /* for(int i:a){
+       Arrays.sort(a);
+       //twenty_nine.quickSort(a);
+        for(int i:a){
             System.out.print(i+"   ");
-        }*/
-        twenty_nine t=new twenty_nine();
+        }
+        /*twenty_nine t=new twenty_nine();
         t.GetLeastNumbers_Solution(a,4).forEach(l->{
             System.out.print(l);
-        });
+        });*/
     }
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
         List<Integer> list=new ArrayList<>();
