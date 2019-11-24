@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_four.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_nine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_seven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty_eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty_five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty_four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty_seven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/forty_six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/foty_five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/four_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/four_three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/four_two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_eleven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_nine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_seven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指/thrty_nine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/META-INF/HUAXUEQI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1$T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5$T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/公平锁和非公平锁/Demo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/公平锁和非公平锁/Demo8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/six.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/six.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1$T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/five.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/five.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/six.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/six.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HUAXUEQI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HUAXUEQI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fourteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fourteen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/剑指/fourteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/fourteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/剑指/sixteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/sixteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/剑指/ten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/ten.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +94,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -104,9 +134,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.nine">
-    <configuration name="nine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.nine" />
+  <component name="RunManager" selected="Application.thirty_eight">
+    <configuration name="fourteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指.fourteen" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.seven" />
+    <configuration name="seventeen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指.seventeen" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="six" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.six" />
+    <configuration name="sixteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指.sixteen" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirty_five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.thirty_five" />
+    <configuration name="ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指.ten" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twenty_seven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.twenty_seven" />
+    <configuration name="thirty_eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指.thirty_eight" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -171,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.thirty_five" />
-      <item itemvalue="Application.twenty_seven" />
-      <item itemvalue="Application.six" />
-      <item itemvalue="Application.seven" />
-      <item itemvalue="Application.nine" />
+      <item itemvalue="Application.ten" />
+      <item itemvalue="Application.fourteen" />
+      <item itemvalue="Application.sixteen" />
+      <item itemvalue="Application.seventeen" />
+      <item itemvalue="Application.thirty_eight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.nine" />
-        <item itemvalue="Application.seven" />
-        <item itemvalue="Application.six" />
-        <item itemvalue="Application.twenty_seven" />
-        <item itemvalue="Application.thirty_five" />
+        <item itemvalue="Application.thirty_eight" />
+        <item itemvalue="Application.seventeen" />
+        <item itemvalue="Application.sixteen" />
+        <item itemvalue="Application.fourteen" />
+        <item itemvalue="Application.ten" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +304,8 @@
       <workItem from="1573700115210" duration="3061000" />
       <workItem from="1573810322710" duration="348000" />
       <workItem from="1574312750884" duration="768000" />
-      <workItem from="1574557523664" duration="7562000" />
+      <workItem from="1574557523664" duration="19079000" />
+      <workItem from="1574582944062" duration="13140000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -346,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572853179321</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="提交">
+      <created>1574565514976</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574565514976</updated>
+    </task>
+    <task id="LOCAL-00012" summary="提交">
+      <created>1574565528473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574565528473</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -375,6 +420,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
@@ -417,18 +463,8 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/剑指/thirteen.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/剑指/thirteen.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/剑指/sixteen.java</url>
-          <line>34</line>
+          <line>31</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

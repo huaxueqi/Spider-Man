@@ -1,7 +1,5 @@
 package 剑指;
 
-import java.util.ArrayList;
-
 /**
  * 输入一个链表。反转链表后，输出表头
  */
@@ -24,11 +22,10 @@ public class sixteen {
 
     }
     public static ListNode solution(ListNode node){
-        ArrayList arrayList=new ArrayList();
         if(node == null)
             return null;
         ListNode pre =null;
-        ListNode tmp =null;
+        ListNode tmp = null;
         while(node != null){
            tmp=node.next;
            node.next=pre;
