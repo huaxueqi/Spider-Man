@@ -15,6 +15,6 @@ public class two {
                 buffer.append(String.valueOf(input.charAt(i)));
             }
         }
-    return new String(buffer);
+      return new String(buffer);
     }
 }

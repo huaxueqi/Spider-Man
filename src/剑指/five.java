@@ -10,12 +10,12 @@ public class five {
      }
      public int pop(){
        if(stack1.isEmpty() && stack2.isEmpty())
-           throw new RuntimeException("栈为空");
-       if(stack2.isEmpty()) {
-           while (!stack1.isEmpty()){
-               stack2.push(stack1.pop());
-       }
-       }
+             throw new RuntimeException("栈为空");
+         if(stack2.isEmpty()) {
+             while (!stack1.isEmpty()){
+                 stack2.push(stack1.pop());
+             }
+         }
          return stack2.pop();
      }
 }
