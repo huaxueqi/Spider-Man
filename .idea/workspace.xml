@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_nine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_seven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_three.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/fifty_two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty_eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty_five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty_four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty_seven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/forty_six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/foty_five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/four_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/four_three.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/four_two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_eleven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_three.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/sixty_two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_nine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_seven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thirty_six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指/thrty_nine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HUAXUEQI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HUAXUEQI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fourteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/fourteen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/ten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/fourteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/fourteen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/sixteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/sixteen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/ten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/ten.java" afterDir="false" />
-    </list>
+    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +251,7 @@
       <workItem from="1573810322710" duration="348000" />
       <workItem from="1574312750884" duration="768000" />
       <workItem from="1574557523664" duration="19079000" />
-      <workItem from="1574582944062" duration="13140000" />
+      <workItem from="1574582944062" duration="13289000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -391,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574565528473</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交">
+      <created>1574597893292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574597893292</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
