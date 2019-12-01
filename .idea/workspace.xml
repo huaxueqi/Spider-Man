@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/thirty_eight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/thirty_eight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/testLongAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/testLongAdder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -259,6 +257,7 @@
       <workItem from="1574582944062" duration="13289000" />
       <workItem from="1575002057816" duration="2109000" />
       <workItem from="1575015368303" duration="123000" />
+      <workItem from="1575193744141" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -358,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575002225725</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="提交">
+      <created>1575193872380</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575193872380</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">

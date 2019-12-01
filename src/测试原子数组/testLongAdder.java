@@ -13,7 +13,7 @@ public class testLongAdder {
      /*     Date d=new Date();
         SimpleDateFormat simpleDateFormat=new SimpleDateFormat();*/
           //System.out.println(a++);
-         Integer a=new Integer(255);
+        Integer a=new Integer(255);
         Integer b=new Integer(255);
         System.out.println(a==b);
         System.out.println(a.equals(b));
