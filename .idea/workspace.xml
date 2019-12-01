@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="" />
+    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/thirty_eight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/thirty_eight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/testLongAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/testLongAdder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.thirty_eight">
-    <configuration name="fourteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.fourteen" />
+  <component name="RunManager" selected="Application.testLongAdder">
+    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="函数式编程.ConsumerTest" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指.*" />
+          <option name="PATTERN" value="函数式编程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seventeen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.seventeen" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="高并发.Demo1" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指.*" />
+          <option name="PATTERN" value="高并发.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sixteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.sixteen" />
+    <configuration name="Demo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="公平锁和非公平锁.Demo8" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指.*" />
+          <option name="PATTERN" value="公平锁和非公平锁.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.ten" />
+    <configuration name="testLongAdder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="测试原子数组.testLongAdder" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指.*" />
+          <option name="PATTERN" value="测试原子数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ten" />
-      <item itemvalue="Application.fourteen" />
-      <item itemvalue="Application.sixteen" />
-      <item itemvalue="Application.seventeen" />
       <item itemvalue="Application.thirty_eight" />
+      <item itemvalue="Application.Demo8" />
+      <item itemvalue="Application.ConsumerTest" />
+      <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.testLongAdder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testLongAdder" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.ConsumerTest" />
+        <item itemvalue="Application.Demo8" />
         <item itemvalue="Application.thirty_eight" />
-        <item itemvalue="Application.seventeen" />
-        <item itemvalue="Application.sixteen" />
-        <item itemvalue="Application.fourteen" />
-        <item itemvalue="Application.ten" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +257,8 @@
       <workItem from="1574312750884" duration="768000" />
       <workItem from="1574557523664" duration="19079000" />
       <workItem from="1574582944062" duration="13289000" />
+      <workItem from="1575002057816" duration="2109000" />
+      <workItem from="1575015368303" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -344,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574597893292</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="提交">
+      <created>1575002225725</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575002225725</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
