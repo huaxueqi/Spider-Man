@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BIGdesimalText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/docker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/测试原子数组/testLongAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/CAS/Demo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/Executor框架/Demo16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/ThreadLocal/Demo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/guava/Demo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo1$T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/信号量/Demo5$T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/公平锁和非公平锁/Demo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/公平锁和非公平锁/Demo8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/字符串算法/demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/字符串算法/demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试原子数组/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/qwer1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/测试线程池/qwer1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo1$T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/计数器/Demo4.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,14 +46,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>datalist</find>
-      <find>byte2Hex</find>
-      <find>InheritableThreadLocal</find>
-      <find>getDelay</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,9 +54,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -71,19 +89,14 @@
       <recent name="F:\HUAXUEQI\src\scxf1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.testLongAdder">
+  <component name="RunManager" selected="Application.BIGdesimalText">
+    <configuration name="BIGdesimalText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BIGdesimalText" />
+      <module name="HUAXUEQI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="函数式编程.ConsumerTest" />
       <module name="HUAXUEQI" />
@@ -110,15 +123,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="公平锁和非公平锁.Demo8" />
+    <configuration name="docker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="docker" />
       <module name="HUAXUEQI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="公平锁和非公平锁.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,33 +143,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirty_eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.thirty_eight" />
-      <module name="HUAXUEQI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.thirty_eight" />
-      <item itemvalue="Application.Demo8" />
       <item itemvalue="Application.ConsumerTest" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.testLongAdder" />
+      <item itemvalue="Application.docker" />
+      <item itemvalue="Application.BIGdesimalText" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BIGdesimalText" />
+        <item itemvalue="Application.docker" />
         <item itemvalue="Application.testLongAdder" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.ConsumerTest" />
-        <item itemvalue="Application.Demo8" />
-        <item itemvalue="Application.thirty_eight" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +252,10 @@
       <workItem from="1575002057816" duration="2109000" />
       <workItem from="1575015368303" duration="123000" />
       <workItem from="1575193744141" duration="200000" />
+      <workItem from="1592896631077" duration="3695000" />
+      <workItem from="1592965532739" duration="1932000" />
+      <workItem from="1592982289425" duration="1933000" />
+      <workItem from="1593313291004" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -377,25 +375,54 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1592896649071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1592896649071" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1592966230185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592966230185" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592984951836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592984951836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593313734476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593313734476" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593313734476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593313734476" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593313734476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593313734476" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593313734476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593313734476" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
