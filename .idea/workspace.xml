@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DateUtils/DateUtilsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/docker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BIGdesimalText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigDecimal/BIGdesimalText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/docker.java" afterDir="false" />
-    </list>
+    <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +231,7 @@
       <workItem from="1592896631077" duration="3695000" />
       <workItem from="1592965532739" duration="1932000" />
       <workItem from="1592982289425" duration="1933000" />
-      <workItem from="1593313291004" duration="3065000" />
+      <workItem from="1593313291004" duration="3168000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -392,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592966230185" />
-    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1593313874020">
+    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1593331496399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593313874020" />
+    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593331496399" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592984951836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
