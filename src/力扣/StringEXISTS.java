@@ -14,7 +14,7 @@ package 力扣;
 
     public static void main(String[] args) {
         StringEXISTS s=new StringEXISTS();
-        System.out.println(s.replaceSpaces("Mr John Smith    ",13));
+        System.out.println(s.canPermutePalindrome("tactcoa"));
 
     }
      public boolean CheckPermutation(String s1, String s2) {
@@ -46,5 +46,22 @@ package 力扣;
              }
          }
          return new String(sb);
+     }
+
+     public boolean canPermutePalindrome(String s) {
+             int []a=new int[128];
+             for(char ch:s.toCharArray()){
+                 a[ch]++;
+             }
+             int flag=0;
+             for(int i:a){
+                 if(i%2==1){
+                     flag++;
+                 }
+             }
+             if(flag<=1){
+                 return true;
+             }
+             return false;
      }
 }
