@@ -14,7 +14,7 @@ package 力扣;
 
     public static void main(String[] args) {
         StringEXISTS s=new StringEXISTS();
-        System.out.println(s.canPermutePalindrome("tactcoa"));
+        System.out.println(s.canPermutePalindrome("aba"));
 
     }
      public boolean CheckPermutation(String s1, String s2) {
