@@ -14,7 +14,8 @@ package 力扣;
 
     public static void main(String[] args) {
         StringEXISTS s=new StringEXISTS();
-        System.out.println(s.canPermutePalindrome("aba"));
+        System.out.println(s.oneEditAway("pales","ple"));
+        s.a();
 
     }
      public boolean CheckPermutation(String s1, String s2) {
@@ -63,5 +64,34 @@ package 力扣;
                  return true;
              }
              return false;
+     }
+     public boolean oneEditAway(String first, String second) {
+         //判断长度差别是否满足一位以内
+         int a=first.length()-second.length();
+         if(Math.abs(a)>1){
+             return false;
+         }
+         char [] c1=first.toCharArray();
+         char [] c2=second.toCharArray();
+         boolean flag=false;
+         for(int i=0,j=0;i<c1.length && j<c2.length;i++,j++){
+             if(c1[i]==c2[j]){
+                 continue;
+             }else if(flag){
+                 return false;
+             }
+             if(a==1){
+                 j--;
+             }
+             else if(a==-1){
+                 i--;
+             }
+             flag=true;
+         }
+         return  true;
+     }
+     void a(){
+        String s="";
+        System.out.println(s.substring(0,1));
      }
 }

@@ -25,9 +25,8 @@ public class sixteen {
         if(node == null)
             return null;
         ListNode pre =null;
-        ListNode tmp = null;
         while(node != null){
-           tmp=node.next;
+          ListNode tmp=node.next;
            node.next=pre;
            pre=node;
            node=tmp;
