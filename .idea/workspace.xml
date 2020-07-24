@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c27e4d10-6d1f-4c99-9468-dca69c8f33d3" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/力扣/elevteen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/力扣/six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/字符串/demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/力扣/Daoyumianji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/力扣/eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/力扣/leetcode109.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUAXUEQI/剑指/sixteen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指/sixteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指/sixteen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/力扣/StringEXISTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/力扣/StringEXISTS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/力扣/demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/力扣/demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/字符串/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/字符串/demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +76,9 @@
       <recent name="F:\HUAXUEQI\src\scxf1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.elevteen">
-    <configuration name="StringEXISTS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="力扣.StringEXISTS" />
+  <component name="RunManager" selected="Application.Daoyumianji">
+    <configuration name="Daoyumianji" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="力扣.Daoyumianji" />
       <module name="HUAXUEQI" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="力扣.dome1" />
+      <module name="HUAXUEQI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="力扣.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="力扣.eight" />
+      <module name="HUAXUEQI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="力扣.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="elevteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="力扣.elevteen" />
       <module name="HUAXUEQI" />
@@ -117,46 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="six" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="力扣.six" />
-      <module name="HUAXUEQI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="力扣.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sixteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指.sixteen" />
-      <module name="HUAXUEQI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StringEXISTS" />
       <item itemvalue="Application.demo1" />
-      <item itemvalue="Application.six" />
-      <item itemvalue="Application.sixteen" />
       <item itemvalue="Application.elevteen" />
+      <item itemvalue="Application.eight" />
+      <item itemvalue="Application.dome1" />
+      <item itemvalue="Application.Daoyumianji" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.elevteen" />
-        <item itemvalue="Application.sixteen" />
-        <item itemvalue="Application.six" />
+        <item itemvalue="Application.Daoyumianji" />
+        <item itemvalue="Application.dome1" />
+        <item itemvalue="Application.eight" />
         <item itemvalue="Application.demo1" />
-        <item itemvalue="Application.StringEXISTS" />
+        <item itemvalue="Application.elevteen" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,16 @@
       <workItem from="1594277680492" duration="446000" />
       <workItem from="1594602597789" duration="2183000" />
       <workItem from="1594798349340" duration="992000" />
-      <workItem from="1594947045905" duration="3441000" />
+      <workItem from="1594947045905" duration="3534000" />
+      <workItem from="1595319401138" duration="137000" />
+      <workItem from="1595321995362" duration="695000" />
+      <workItem from="1595324994156" duration="423000" />
+      <workItem from="1595326536154" duration="313000" />
+      <workItem from="1595377373612" duration="183000" />
+      <workItem from="1595409532997" duration="2738000" />
+      <workItem from="1595413008310" duration="1453000" />
+      <workItem from="1595465813595" duration="6000" />
+      <workItem from="1595557049678" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571018646227</created>
@@ -399,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593736270218</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="提交">
+      <created>1594951004055</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594951004055</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -444,10 +459,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592966230185" />
-    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1593736296653">
+    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1594951049267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593736296653" />
+    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594951049267" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1593682023875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,46 +471,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593390925799" />
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1594950519524">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1595557937262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594950519524" />
-    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1594950519524">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595557937262" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1595557937262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594950519524" />
-    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1594950519524">
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595557937262" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1595557937261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594950519524" />
-    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1594950519524">
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595557937261" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1595557937262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594950519524" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594949164758">
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595557937262" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1595412279725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594949164758" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594949164758">
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595412279725" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1595412279725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594949164758" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594949164758">
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595412279725" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1595412279725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594949164758" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594949164758">
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595412279725" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1595412279725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594949164758" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593736278359">
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595412279725" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594951031216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593736278359" />
-    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593390805791">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594951031216" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594951046111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593390805791" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594951046111" />
+    <state x="660" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594950980040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594950980040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -604,6 +623,11 @@
           <url>file://$PROJECT_DIR$/src/力扣/elevteen.java</url>
           <line>31</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/力扣/eight.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/函数式编程/ConsumerTest.java</url>

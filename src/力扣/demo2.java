@@ -9,5 +9,6 @@ public class demo2 {
         c1=new CountDownLatch(1);
         c2=new CountDownLatch(1);
         c1.countDown();
+        int i=(int)Math.sqrt(8);
     }
 }
