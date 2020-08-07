@@ -224,6 +224,25 @@ public class helloWorld {
                 + "\"page\": \"总18164篇 共909页 \"" + "}";
         return jsonStr;
     }
+    public String getJsonStr22() {
+        String jsons = "{\"point_name\":\"恐龙厅\",\n" +
+                "\"point_type\":\"normal_position\",\n" +
+                "\"map_x\":\"-0.0419\",\n" +
+                "\"map_y\":\"0.3480\",\n" +
+                "\"theta\":\"0.71\",\n" +
+                "\"display_x\":\"94.1611\",\n" +
+                "\"display_y\":\"154.0403\",\n" +
+                " \"description\":\"\",\n" +
+                "\"play_media\":\n" +
+                "[{\"media_type\":5,\n" +
+                "\"tts\":\"这里就是恐龙厅了，啦啦啦\",\"\n" +
+                "image_extra_time\":3,\n" +
+                "\"delay_time\":3,\n" +
+                "\"file_url\":\"OSS:a855b69491b518ce38f0b5234d0c0053.png\"\n" +
+                "}]\n" +
+                "}";
+        return jsons;
+    }
     @SuppressWarnings("rawtypes")
     public void  analysisJson(Object objJson){
         //如果obj为json数组
@@ -258,7 +277,7 @@ public class helloWorld {
     }
     public static void main(String[] args) {
         helloWorld hw = new helloWorld();
-        JSONObject jsonObject = JSONObject.fromObject(hw.getJsonStr1());
+        JSONObject jsonObject = JSONObject.fromObject(hw.getJsonStr22());
         hw.analysisJson(jsonObject);
     }
 }
