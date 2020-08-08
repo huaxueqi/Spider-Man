@@ -255,10 +255,47 @@ public class helloWorld {
                 }
             }
         }
+        String str = "{\"point_name\":\"恐龙厅\",\n" +
+                "\"point_type\":\"normal_position\",\n" +
+                "\"map_x\":\"-0.0419\",\n" +
+                "\"map_y\":\"0.3480\",\n" +
+                "\"theta\":\"0.71\",\n" +
+                "\"display_x\":\"94.1611\",\n" +
+                "\"display_y\":\"154.0403\",\n" +
+                " \"description\":\"\",\n" +
+                "\"play_media\":\n" +
+                "[{\"media_type\":5,\n" +
+                "\"tts\":\"这里就是恐龙厅了，啦啦啦\",\n" +
+                "\"image_extra_time\":3,\n" +
+                "\"delay_time\":3,\n" +
+                "\"file_url\":\"OSS:a855b69491b518ce38f0b5234d0c0053.png\"\n" +
+                "}]\n" +
+                "}\n";
+        System.out.println();
+
     }
+
+
     public static void main(String[] args) {
+        String str = "{\"point_name\":\"恐龙厅\",\n" +
+                "\"point_type\":\"normal_position\",\n" +
+                "\"map_x\":\"-0.0419\",\n" +
+                "\"map_y\":\"0.3480\",\n" +
+                "\"theta\":\"0.71\",\n" +
+                "\"display_x\":\"94.1611\",\n" +
+                "\"display_y\":\"154.0403\",\n" +
+                " \"description\":\"\",\n" +
+                "\"play_media\":\n" +
+                "[{\"media_type\":5,\n" +
+                "\"tts\":\"这里就是恐龙厅了，啦啦啦\",\n" +
+                "\"image_extra_time\":3,\n" +
+                "\"delay_time\":3,\n" +
+                "\"file_url\":\"OSS:a855b69491b518ce38f0b5234d0c0053.png\"\n" +
+                "}]\n" +
+                "}\n";
+        System.out.println();
         helloWorld hw = new helloWorld();
-        JSONObject jsonObject = JSONObject.fromObject(hw.getJsonStr1());
+        JSONObject jsonObject = JSONObject.fromObject(str);
         hw.analysisJson(jsonObject);
     }
 }
