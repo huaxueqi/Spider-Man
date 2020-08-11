@@ -8,7 +8,9 @@ import java.util.HashMap;
 
 public class json输出 {
     public static void main(String[] args) {
+
         Object O=new Object(); //数据源，Object类型
+
         String str = "{\"point_name\":\"恐龙厅\",\n" +
                 "\"point_type\":\"normal_position\",\n" +
                 "\"map_x\":\"-0.0419\",\n" +
