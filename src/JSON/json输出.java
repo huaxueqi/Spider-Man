@@ -4,8 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
-import java.util.HashMap;
-
 public class json输出 {
     public static void main(String[] args) {
 
@@ -48,11 +46,14 @@ public class json输出 {
         }
 
 
-        System.out.println(jsonArray);
+        JSONArray jsonArray1=JSONArray.parseArray("");
+        System.out.println(jsonArray!=null);
+        //System.out.println(!jsonArray.isEmpty());
+        System.out.println(jsonArray.size()>0);
 
-        HashMap map=new HashMap();
+       /* HashMap map=new HashMap();
         jsonObject2.forEach((m,n)->{
-            System.out.println(m+"     "+n);
-        });
+            map.put(m,n);
+        });*/
     }
 }
