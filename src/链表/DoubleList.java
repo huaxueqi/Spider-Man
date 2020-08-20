@@ -166,6 +166,7 @@ public class DoubleList<T> {
 
         list.delete(1);
 
+        list.insert(2,"a");
         System.out.println(list.size());
         list.display();
     }
