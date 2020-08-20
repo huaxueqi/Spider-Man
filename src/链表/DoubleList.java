@@ -1,4 +1,4 @@
-package 排序;
+package 链表;
 
 public class DoubleList<T> {
     class DoubleNode<T> {

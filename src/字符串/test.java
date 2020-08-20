@@ -1,4 +1,4 @@
-package LIST集合;
+package 字符串;
 
 public class test {
     public static void main(String[] args) {
