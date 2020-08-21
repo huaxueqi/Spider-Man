@@ -11,7 +11,7 @@ public class Daoyumianji {
              {0,0,0,0,0,0,0,1,1,1,0,0,0},
              {0,0,0,0,0,0,0,1,1,0,0,0,0}};
          Daoyumianji D=new Daoyumianji();
-         D.maxAreaOfIsland(a);
+         System.out.println(D.maxAreaOfIsland(a));
     }
     public int maxAreaOfIsland(int[][] grid) {
         int res=0;
