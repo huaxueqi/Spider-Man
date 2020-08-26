@@ -1,0 +1,4 @@
+add= shejimoshi.Factory.addFactory
+div= shejimoshi.Factory.divFactory
+mul= shejimoshi.Factory.mulFactory
+sub= shejimoshi.Factory.subFactory
