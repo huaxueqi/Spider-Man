@@ -9,7 +9,7 @@ public class Test {
         /**
          * 包装对象(对目标对象进行包装)
          */
-        Filterable decorObj = new DecoratorForFilter1(new DecoratorForFilter2(
+        Filterable decorObj = new DecoratorForFilter2(new DecoratorForFilter1(
                 targetObj));
         /**
          * 执行包装后的业务方法

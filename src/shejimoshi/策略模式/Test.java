@@ -5,12 +5,12 @@ public class Test {
         Character king = new King();
         king.performWeapon();
         // 这里有点类似于“状态模式”
-        king.setWeapon(new AxeBehavior());
+        king.setWeapon(new AxeBehavior());//改变策略
         king.performWeapon();
 
         Character queen = new Queen();
         queen.performWeapon();
-        queen.setWeapon(new AxeBehavior());
+        queen.setWeapon(new AxeBehavior());//改变策略
         queen.performWeapon();
     }
 }
