@@ -1,6 +1,6 @@
 package shejimoshi.适配器模式;
 
-public class Adapter {
+public class Adapter implements Target {
     private Adaptee adaptee;
 
     public Adapter (Adaptee adaptee) {

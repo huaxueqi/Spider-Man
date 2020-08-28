@@ -4,4 +4,5 @@ public class Adaptee {
     public void sampleOperation1() {
         System.out.println("Operation 1st");
     }
+
 }
