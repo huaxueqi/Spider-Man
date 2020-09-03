@@ -14,7 +14,7 @@ public class demo1 {
              FileOutputStream fileOutput = new FileOutputStream("E:\\Spider-Man\\b.txt")
         ){
             byte[] b = new byte[1024];
-            int len = 0;
+            int len;
             while((len = fileInput.read(b)) != -1){
                 fileOutput.write(b, 0, len);
             }
