@@ -64,6 +64,8 @@ public class Demo12 {
 
         //创建一个线程池，用来异步下单
         ExecutorService executor = Executors.newFixedThreadPool(5);
+        ExecutorService executor1 = new ThreadPoolExecutor(1,1,10,TimeUnit.SECONDS,new LinkedBlockingDeque<>());
+
         //异步下单购买冰箱
         Future<GoodsModel> bxFuture = executor.submit(buyGoods("冰箱", 5));
         //异步下单购买洗衣机
