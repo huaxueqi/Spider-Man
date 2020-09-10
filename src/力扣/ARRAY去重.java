@@ -1,6 +1,7 @@
 package 力扣;
 
 public class ARRAY去重 {
+    //数组去重复数据返回长度和修改后的数组
     public static void main(String[] args) {
         int a[]={1,1,2,2,3,3,4};
         int length=a.length;

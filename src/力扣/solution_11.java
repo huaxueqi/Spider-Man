@@ -1,6 +1,7 @@
 package 力扣;
 
 public class solution_11 {
+    //存最多的水
     public static int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
         int ans = 0;

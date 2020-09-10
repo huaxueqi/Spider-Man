@@ -1,6 +1,7 @@
 package 力扣;
 
 public class eight {
+
     public static void main(String[] args) {
         int a[][] = {{1, 2, 3,0},
                 {4, 5, 6,1},
