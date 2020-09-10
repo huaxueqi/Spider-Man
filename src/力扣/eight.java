@@ -1,7 +1,10 @@
 package 力扣;
 
 public class eight {
-
+    /**
+     * 编写一种算法，若M × N矩阵中某个元素为0，则将其所在的行与列清零。
+     * @param args
+     */
     public static void main(String[] args) {
         int a[][] = {{1, 2, 3,0},
                 {4, 5, 6,1},
