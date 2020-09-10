@@ -1,4 +1,4 @@
-package 集合.SET集合.MAP集合;
+package 集合.MAP集合;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

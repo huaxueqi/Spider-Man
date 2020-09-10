@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
-public class json输出 {
+public class fastjsons {
     public static void main(String[] args) {
 
         Object O=new Object(); //数据源，Object类型

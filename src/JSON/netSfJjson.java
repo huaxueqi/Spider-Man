@@ -12,7 +12,7 @@ import java.util.Iterator;
  * @version 3.0
  * @date 2014-5-21 上午09:45:51
  */
-public class helloWorld {
+public class netSfJjson {
     public String getJsonStr1() {
         String jsonStr = "{"
                 + "\"list\": ["
@@ -257,7 +257,7 @@ public class helloWorld {
         }
     }
     public static void main(String[] args) {
-        helloWorld hw = new helloWorld();
+        netSfJjson hw = new netSfJjson();
         JSONObject jsonObject = JSONObject.fromObject(hw.getJsonStr1());
         hw.analysisJson(jsonObject);
     }

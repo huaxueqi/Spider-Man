@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class demo1 {
+    //try with  resource
     public static void main(String[] args) {
            File one =new File("E:\\Spider-Man\\a.txt");
            demo1.filyCopy2(one);

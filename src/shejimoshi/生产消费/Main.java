@@ -1,4 +1,4 @@
-package 生产消费;
+package shejimoshi.生产消费;
 
 import java.util.ArrayList;
 public class Main {

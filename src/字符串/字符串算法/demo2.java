@@ -1,4 +1,4 @@
-package 字符串算法;
+package 字符串.字符串算法;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

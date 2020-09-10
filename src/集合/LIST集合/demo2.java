@@ -1,4 +1,4 @@
-package 集合.SET集合.LIST集合;
+package 集合.LIST集合;
 
 import java.util.ArrayList;
 import java.util.HashMap;

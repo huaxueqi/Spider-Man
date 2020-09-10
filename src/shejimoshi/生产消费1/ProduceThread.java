@@ -1,4 +1,4 @@
-package 生产消费1;
+package shejimoshi.生产消费1;
 
 public class ProduceThread extends Thread {
     private Produce p;
