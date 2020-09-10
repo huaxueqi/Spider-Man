@@ -1,7 +1,7 @@
 package 力扣;
 
 public class solution_11 {
-    public int maxArea(int[] height) {
+    public static int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
         int ans = 0;
         while (l < r) {
@@ -9,8 +9,7 @@ public class solution_11 {
             ans = Math.max(ans, area);
             if (height[l] <= height[r]) {
                 ++l;
-            }
-            else {
+            } else {
                 --r;
             }
         }
@@ -18,7 +17,8 @@ public class solution_11 {
     }
 
     public static void main(String[] args) {
-
+        int a[] = {1, 3, 5, 7, 9};
+        System.out.println(solution_11.maxArea(a));
     }
 }
 
