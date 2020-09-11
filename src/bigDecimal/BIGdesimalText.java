@@ -21,7 +21,5 @@ public class BIGdesimalText {
         System.out.println(l);
         //断言请求的操作具有精确的结果，因此不需要舍入。
         //如果对获得精确结果的操作指定此舍入模式，则抛出ArithmeticException。
-
-
     }
 }
