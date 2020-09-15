@@ -9,7 +9,7 @@ import java.util.Map;
 public class demo1 {
     public static void main(String[] args) {
   String s="abbnbbcccccddda";
-       System.out.println(demo1.lengthOfLongestSubstring(s));
+       System.out.println(demo1.lengthOfLongestSubstring1(s));
 
     }
 
@@ -29,7 +29,7 @@ public class demo1 {
 
 
 
-    public int lengthOfLongestSubstring1(String s) {
+    public static int lengthOfLongestSubstring1(String s) {
         int res = 0;
         if(s.length() == 0)
             return res;
@@ -40,10 +40,10 @@ public class demo1 {
             // 判断右指针指向的字符是否出现过
             if(hashMap.containsKey(s.charAt(right))){
                 // 确定左指针的位置
-                left = Math.max(left, hashMap.get(s.charAt(right))+1);
+                left = Math.max(left, hashMap.get(s.charAt(right)));
             }
             // 对于第一次出现的字符，保存该字符的位置；对于多次出现的字符，更新该字符出现的位置
-            hashMap.put(s.charAt(right), right);
+            hashMap.put(s.charAt(right), right+1);
             // 更新窗口的大小，保存最大的窗口大小
             res = Math.max(res, right-left+1);
         }
