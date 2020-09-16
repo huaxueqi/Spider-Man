@@ -26,8 +26,6 @@ public class demo4 {
         demo4.binaryTreePaths(root).forEach(l -> {
             System.out.println(l);
         });
-
-
     }
 
     public static List<String> binaryTreePaths(TreeNode root) {
