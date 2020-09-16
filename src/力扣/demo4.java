@@ -16,14 +16,14 @@ public class demo4 {
         TreeNode node5 = new TreeNode(6);
         TreeNode node6 = new TreeNode(7);
         TreeNode node7 = new TreeNode(8);
-        root.left=node1;
-        root.right=node2;
-        node1.left=node3;
-        node1.right=node4;
-        node2.left=node5;
-        node2.right=node6;
-        node3.left=node7;
-        demo4.binaryTreePaths(root).forEach(l->{
+        root.left = node1;
+        root.right = node2;
+        node1.left = node3;
+        node1.right = node4;
+        node2.left = node5;
+        node2.right = node6;
+        node3.left = node7;
+        demo4.binaryTreePaths(root).forEach(l -> {
             System.out.println(l);
         });
 
@@ -54,6 +54,7 @@ public class demo4 {
         TreeNode left;
         TreeNode right;
         int val;
+
         TreeNode(int val) {
             this.val = val;
         }
