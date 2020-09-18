@@ -5,6 +5,7 @@ import java.util.Map;
 
 /*
 找出一个字符串中最大不重复子串
+滑动窗口
  */
 public class demo1 {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class demo1 {
 
         public static int lengthOfLongestSubstring(String s) {
             int n = s.length(), ans = 0;
-            Map<Character, Integer> map = new HashMap<>(); // current index of character
+            Map<Character, Integer> map = new HashMap<>();
             // try to extend the range [i, j]
             for (int j = 0, i = 0; j < n; j++) {
                 if (map.containsKey(s.charAt(j))) {
