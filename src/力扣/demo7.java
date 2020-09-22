@@ -14,11 +14,16 @@ public class demo7 {
         l3.next=l4;
         l4.next=l5;
         int k=6;
-        Integer Q= demo7.kthToLast(l1,k);
+        /*Integer Q= demo7.kthToLast(l1,k);
         if( Q == null)
             System.out.println("为空");
         else
-            System.out.println(Q);
+            System.out.println(Q);*/
+       ListNode Q1= demo7.kthToLast1(l1);
+        while( Q1 != null){
+            System.out.print(Q1.val+"   ");
+            Q1= Q1.next;
+        }
     }
     public static Integer kthToLast(ListNode head, int k) {
         ListNode p, q;
@@ -30,5 +35,16 @@ public class demo7 {
             p = p.next;
         }
         return i < k ? null : q.val;
+    }
+    public static ListNode kthToLast1(ListNode head) {
+        ListNode p, q;
+        p = head;
+        q=head.next.next;
+        while(q.next !=null && q.next.next !=null){
+            p=p.next;
+            q=q.next.next;
+        }
+        p.next=p.next.next;
+        return head;
     }
 }
