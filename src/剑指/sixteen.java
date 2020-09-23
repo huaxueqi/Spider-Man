@@ -28,8 +28,8 @@ public class sixteen {
         ListNode pre = null;
         while (node != null) {
             ListNode tmp = node.next;  //t=a
-            node.next = pre;          //a=b
-            pre = node;               //b=t
+            node.next = pre;           //a=b
+            pre = node;                //b=t
             node = tmp;
         }
         return pre;
