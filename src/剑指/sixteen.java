@@ -19,7 +19,6 @@ public class sixteen {
             System.out.print(Q.val + "   ");
             Q = Q.next;
         }
-
     }
 
     public static ListNode solution(ListNode node) {
