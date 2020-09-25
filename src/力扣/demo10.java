@@ -3,6 +3,7 @@ package 力扣;
 import java.util.Stack;
 
 public class demo10 {
+    //括号匹配
     public static void main(String[] args) {
         String s = "()[{}]";
         System.out.println(demo10.isValid(s));
