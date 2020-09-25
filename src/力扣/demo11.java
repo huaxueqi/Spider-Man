@@ -17,6 +17,7 @@ public class demo11 {
         ListNode fast = head;
         ListNode prev = null;
 
+        //翻转链表前部分，让他和后半部分对比
         while (fast != null && fast.next != null) {
             ListNode oldCur = slow;
             slow = slow.next;
