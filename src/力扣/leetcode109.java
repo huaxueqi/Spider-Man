@@ -1,7 +1,7 @@
 package 力扣;
 
 public class leetcode109 {
-    //字符串轮转
+    //字符串轮转   自身加自身
     public static void main(String[] args) {
 
     }

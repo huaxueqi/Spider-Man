@@ -6,7 +6,7 @@ import java.util.List;
 public class demo2 {
     //全排列问题
     public static void main(String[] args) {
-        char a[]={'1','2','3','4'};
+        char[] a ={'1','2','3','4'};
         permute(a).forEach(l->{
             System.out.println(l);
         });
@@ -18,7 +18,8 @@ public class demo2 {
         return res;
     }
 
-    public static void hiusufa(List<List<Character>> res, char []a, ArrayList<Character> tmp, char[] b){
+    public static void hiusufa(List<List<Character>> res, char []a,
+                               ArrayList<Character> tmp,  char[] b){
         if(tmp.size()==a.length){
             res.add(new ArrayList<>(tmp));
             return ;

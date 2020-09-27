@@ -1,6 +1,10 @@
 package 剑指;
 
 public class fifty_six {
+    /**
+     * 判断链表是否有环
+     * @param args
+     */
     public static void main(String[] args) {
 
     }
