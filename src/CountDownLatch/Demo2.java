@@ -1,4 +1,4 @@
-package 计数器;
+package CountDownLatch;
 
 import org.apache.commons.collections.CollectionUtils;
 

@@ -1,4 +1,4 @@
-package 计数器;
+package CountDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

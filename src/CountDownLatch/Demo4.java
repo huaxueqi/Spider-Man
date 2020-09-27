@@ -1,14 +1,14 @@
-package 计数器;
+package CountDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.atomic.LongAdder;
+import java.util.concurrent.atomic.LongAccumulator;
 
-public class Demo3 {
-    static LongAdder count = new LongAdder();
+public class Demo4 {
+    static LongAccumulator count = new LongAccumulator((x, y) -> x + y, 0L);
 
     public static void incr() {
-        count.increment();
+        count.accumulate(1);
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
@@ -35,6 +35,6 @@ public class Demo3 {
         }
         countDownLatch.await();
         long t2 = System.currentTimeMillis();
-        System.out.println(String.format("结果：%s,耗时(ms)：%s", count.sum(), (t2 - t1)));
+        System.out.println(String.format("结果：%s,耗时(ms)：%s", count.longValue(), (t2 - t1)));
     }
 }

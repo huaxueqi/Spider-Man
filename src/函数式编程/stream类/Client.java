@@ -1,4 +1,4 @@
-package stream类;
+package 函数式编程.stream类;
 
 import java.util.*;
 import java.util.stream.Collectors;
