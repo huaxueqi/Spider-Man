@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class demo12 {
+    //字符串全排列 ，返回string 数组
     public static void main(String[] args) {
         demo12 demo12 = new demo12();
         System.out.println(Arrays.toString(demo12.permutation("abc")));
