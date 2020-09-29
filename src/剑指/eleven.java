@@ -1,6 +1,7 @@
 package 剑指;
 
 public class eleven {
+    //
     public static void main(String[] args) {
           System.out.println(eleven.numberofBin(15));
     }

@@ -1,6 +1,7 @@
 package 剑指;
 
 public class fifty_eight {
+    //获得下一个树的下一个节点
     public static void main(String[] args) {
         TreeLinkNode root = new TreeLinkNode(4);
         TreeLinkNode first = new TreeLinkNode(2);

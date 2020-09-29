@@ -3,6 +3,7 @@ package 剑指;
 import java.util.Stack;
 
 public class fifty_nine {
+    //判断两个树是否为镜像
     public static void main(String[] args) {
 
     }

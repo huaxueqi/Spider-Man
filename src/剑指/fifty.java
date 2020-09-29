@@ -1,8 +1,10 @@
 package 剑指;
 
 public class fifty {
+    //字符串转为整数
     public static void main(String[] args) {
-
+        fifty f=new fifty();
+        System.out.println(f.StrToInt("-465"));
     }
     public int StrToInt(String str) {
         if(str.equals("")) return 0;

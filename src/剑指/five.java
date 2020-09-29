@@ -3,6 +3,7 @@ package 剑指;
 import java.util.Stack;
 
 public class five {
+    //构建一个栈
      Stack<Integer> stack1=new Stack<>();
      Stack<Integer> stack2=new Stack<>();
      public void  push(int node){

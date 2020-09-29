@@ -1,6 +1,7 @@
 package 剑指;
 
 public class eight {
+    //斐波那契数列
     public static void main(String[] args) {
            System.out.println(eight.jump(10));
     }
