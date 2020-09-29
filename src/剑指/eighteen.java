@@ -4,11 +4,13 @@ package 剑指;
  * 输入一个二叉树A,B。判断A是否为B的子结构，空树不为任何一个树的子结构
  */
 public class eighteen {
+    //
     public static void main(String[] args) {
     }
    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
         if(root1 == null || root2 == null) return  false;
-        return  HasSubtree(root1.left,root2) || HasSubtree(root1.right,root2) || jump(root1,root2);
+        return  HasSubtree(root1.left,root2) || HasSubtree(root1.right,root2) ||
+                jump(root1,root2);
     }
     public boolean jump(TreeNode t1,TreeNode t2){
         if(t2 == null) return true;

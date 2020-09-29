@@ -8,6 +8,7 @@ public class fifty_six {
     public static void main(String[] args) {
 
     }
+    //有问题
     public ListNode EntryNodeOfLoop(ListNode pHead){
         if(pHead==null||pHead.next==null){
             return null;
@@ -29,4 +30,20 @@ public class fifty_six {
         return null;//走到这步说明无环
     }
 
+   //正确答案
+    public boolean hasCycle(ListNode head) {
+        if(head==null||head.next==null){
+            return false;
+        }
+        ListNode l=head;
+        ListNode r=head.next;
+        while(l != r){
+            if(r==null || r.next == null){
+                return false;
+            }
+            l=l.next;
+            r=r.next.next;
+        }
+        return true;
+    }
 }
