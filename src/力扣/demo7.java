@@ -36,6 +36,7 @@ public class demo7 {
         }
         return i < k ? null : q.val;
     }
+
     public static ListNode kthToLast1(ListNode head) {
         ListNode p, q;
         p = head;

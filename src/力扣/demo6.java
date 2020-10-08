@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class demo6 {
+
     //移除未排序链表中的重复节点。保留最开始出现的节点。
     public static void main(String[] args) {
         ListNode l1=new ListNode(1);
@@ -24,7 +25,7 @@ public class demo6 {
         }
     }
     public static ListNode removeDuplicateNodes(ListNode head) {
-        Set set=new HashSet();
+        Set set= new HashSet();
         set.add(head.val);
         ListNode tmp=head;
         while(tmp.next != null){
