@@ -40,6 +40,7 @@ public class demo7 {
         return i < k ? null : q.val;
     }
 
+
     //删除链表中间的节点
     public static ListNode kthToLast(ListNode head) {
         ListNode p, q;
