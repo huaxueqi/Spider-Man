@@ -48,8 +48,8 @@ public class demo7 {
         while (q.next != null && q.next.next != null) {
             p = p.next;
             q = q.next.next;
-        }
-        p.next = p.next.next;
+        }//找到链表中间的节点
+        p.next = p.next.next;//改变指针
         return head;
     }
 }
