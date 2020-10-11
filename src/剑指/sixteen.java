@@ -14,7 +14,7 @@ public class sixteen {
         l2.next = l3;
         l3.next = l4;
         l4.next = l5;
-        ListNode Q = sixteen.solution(l1);
+        ListNode Q = sixteen.revertList(l1);
         while (Q != null) {
             System.out.print(Q.val + "   ");
             Q = Q.next;
@@ -33,4 +33,14 @@ public class sixteen {
         }
         return pre;
     }
+
+    public static ListNode revertList(ListNode node) {
+        if (node == null || node.next == null) return node;
+        ListNode pre = revertList(node.next);//从下一个节点开始递归
+        node.next.next = node;//设置下一个节点的next 为当前节点
+        node.next = null;//把当前节点的next 设置为空，避免循环引用
+        return pre;
+    }
+
+
 }
