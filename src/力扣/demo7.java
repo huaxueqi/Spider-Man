@@ -13,12 +13,12 @@ public class demo7 {
         l2.next=l3;
         l3.next=l4;
         l4.next=l5;
-        int k=6;
-        /*Integer Q= demo7.kthToLast(l1,k);
+        int k=3;
+        Integer Q= demo7.kthToLast(l1,k);
         if( Q == null)
             System.out.println("为空");
         else
-            System.out.println(Q);*/
+            System.out.println(Q);
        ListNode Q1= demo7.kthToLast1(l1);
         while( Q1 != null){
             System.out.print(Q1.val+"   ");

@@ -2,6 +2,7 @@ package huangrenhe;
 
 import org.apache.commons.collections.bag.SynchronizedSortedBag;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,6 +16,10 @@ public class Demo_ListNode {
     }
 
     public static void main(String[] args) {
+
+        HashMap m=new HashMap();
+        m.put("1",1);
+        m.hashCode();
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
         ListNode listNode3 = new ListNode(3);
