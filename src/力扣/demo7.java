@@ -16,11 +16,11 @@ public class demo7 {
         l4.next = l5;
         l5.next = l6;
         int k = 6;
-        /*Integer Q= demo7.kthToLast(l1,k);
+        Integer Q= demo7.kthToLast(l1,k);
         if( Q == null)
             System.out.println("为空");
         else
-            System.out.println(Q);*/
+            System.out.println(Q);
         ListNode Q1 = demo7.kthToLast(l1);
         while (Q1 != null) {
             System.out.print(Q1.val + "   ");
