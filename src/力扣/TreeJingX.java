@@ -1,6 +1,7 @@
 package 力扣;
 
 public class TreeJingX {
+    //二叉树的镜像
     public static void main(String[] args) {
         demo4.TreeNode root = new demo4.TreeNode(1);
         demo4.TreeNode node1 = new demo4.TreeNode(2);

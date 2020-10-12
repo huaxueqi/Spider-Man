@@ -1,6 +1,7 @@
 package 剑指;
 
 public class forty_eight {
+    //n 的阶乘
     public static void main(String[] args) {
 
     }

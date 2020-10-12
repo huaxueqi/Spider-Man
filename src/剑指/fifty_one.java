@@ -1,10 +1,11 @@
 package 剑指;
 
 public class fifty_one {
+    //数组中的重复数字
     public static void main(String[] args) {
 
     }
-    public boolean duplicate(int numbers[], int length, int[] duplication) {
+    public boolean duplicate(int[] numbers, int length, int[] duplication) {
         boolean[] k = new boolean[length];
         for (int i = 0; i < length; i++) {
             if (k[numbers[i]] == true) {
