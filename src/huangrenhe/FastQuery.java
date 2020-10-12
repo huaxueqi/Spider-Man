@@ -19,10 +19,10 @@ public class FastQuery {
             arr[j] = temp;
         }
         arr[left]=arr[i];//相遇位置数赋值给基准数位置
-        arr[j]=base;//基准数赋值给相遇的位置
+        arr[i]=base;//基准数赋值给相遇的位置
 
         fastQuery(arr, left, i-1);
-        fastQuery(arr, j+1, right);
+        fastQuery(arr, i+1, right);
     }
 
     public static void main(String[] args) {

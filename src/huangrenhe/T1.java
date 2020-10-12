@@ -8,7 +8,7 @@ public class T1 {
         System.out.println(T1.zhongweishu(s));
     }
 
-    public static int zhongweishu(String s) {
+    public static Double zhongweishu(String s) {
         String[] c = s.split(",");
         int[] arr = new int[c.length];
         int i = 0;
@@ -17,8 +17,8 @@ public class T1 {
         }
         Arrays.sort(arr);
         if (i % 2 == 0) {
-            return (arr[i / 2] + arr[(i / 2) - 1]) / 2;
+            return (double)(arr[i / 2] + arr[(i / 2) - 1]) / 2;
         }
-        return arr[i / 2];
+        return (double)arr[i / 2];
     }
 }

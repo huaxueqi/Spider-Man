@@ -75,7 +75,7 @@ public class Demo1 {
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        long starTime = System.currentTimeMillis();
+        long starTime = System.currentTimeMillis();//获取当前时间
         Map<String, Object> map = new Demo1().goodsDetail(1L);
         System.out.println(map);
         System.out.println("耗时(ms):" + (System.currentTimeMillis() - starTime));
