@@ -3,21 +3,23 @@ package 剑指;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class four {
     public static void main(String[] args) {
-       four f=new four();
+        four f = new four();
         // 前序遍历结果
         int[] a = {1, 2, 4, 7, 3, 5, 6, 8};
         // 中序遍历结果
         int[] b = {4, 7, 2, 1, 5, 3, 8, 6};
-        TreeNode root=f.solution(a,b);
-        f.bianli(root).forEach(l->{
-            System.out.print(l+" ");
+        TreeNode root = f.solution(a, b);
+        f.Print(root).forEach(l -> {
+            System.out.print(l + " ");
         });
 
     }
-    public TreeNode solution(int a[],int b[]) {
+
+    public TreeNode solution(int[] a, int[] b) {
         if (a == null || b == null || a.length == 0 || b.length == 0) {
             return null;
         }
@@ -33,39 +35,91 @@ public class four {
         }
         return root;
     }
-    public void preorder(TreeNode root){
-        if(root == null)
+
+    public void preorder(TreeNode root) {
+        if (root == null)
             return;
-         preorder(root.left);
-         preorder(root.right);
-         System.out.print(root.val+"  ");
+        preorder(root.left);
+        preorder(root.right);
+        System.out.print(root.val + "  ");
     }
-    public ArrayList<Integer> bianli(TreeNode root){
-        ArrayList<Integer> list=new ArrayList<>();
-        if(root == null){
+
+    //树的层次遍历
+    public ArrayList<Integer> bianli(TreeNode root) {
+        ArrayList<Integer> list = new ArrayList<>();
+        if (root == null) {
             return list;
         }
-        LinkedList<TreeNode> q =new LinkedList<>();
-        TreeNode tmp ;
+        LinkedList<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        while (!q.isEmpty()){
-            tmp=q.poll();//出队
+        while (!q.isEmpty()) {
+            TreeNode tmp = q.poll();//出队
             //System.out.print(tmp.val+" ");
             list.add(tmp.val);
-            if(tmp.left != null)
+            if (tmp.left != null)
                 q.offer(tmp.left);
-            if(tmp.right != null)
+            if (tmp.right != null)
                 q.offer(tmp.right);
+        }
+        Integer[] arr = new Integer[list.size()];
+        list.toArray(arr);
+        for (int a : arr) {
+            System.out.print(a + "   ");
         }
         return list;
     }
 
+    //树的层次遍历
+    public int[] levelOrder(TreeNode root) {
+        ArrayList<Integer> list = new ArrayList<>();
+        if (root == null) {
+            return new int[0];
+        }
+        LinkedList<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            TreeNode tmp = q.poll();//出队
+            list.add(tmp.val);
+            if (tmp.left != null)
+                q.offer(tmp.left);
+            if (tmp.right != null)
+                q.offer(tmp.right);
+        }
+        int[] arr = new int[list.size()];
+
+        for (int i = 0; i < list.size(); i++) {
+            arr[i] = list.get(i);
+        }
+        return arr;
+    }
+
+    //树的层次遍历
+    ArrayList<Integer> Print(TreeNode pRoot) {
+        //ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        if (pRoot == null) return list;
+        queue.offer(pRoot);
+        //树的层次遍历
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                list.add(node.val);
+                if (node.left != null) queue.offer(node.left);
+                if (node.right != null) queue.offer(node.right);
+            }
+        }
+        return list;
+    }
 }
-class TreeNode{
+
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode (int x){
-        this.val=x;
+
+    TreeNode(int x) {
+        this.val = x;
     }
 }
