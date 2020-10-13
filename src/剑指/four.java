@@ -18,7 +18,7 @@ public class four {
         });
 
     }
-
+    //已知前序、中序，求后序遍历
     public TreeNode solution(int[] a, int[] b) {
         if (a == null || b == null || a.length == 0 || b.length == 0) {
             return null;
@@ -35,7 +35,7 @@ public class four {
         }
         return root;
     }
-
+    //前序遍历
     public void preorder(TreeNode root) {
         if (root == null)
             return;
