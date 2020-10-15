@@ -8,7 +8,7 @@ public class Demo4 {
     static int accountMoney = 19;
     //用于对账户余额做原子操作
     static AtomicStampedReference<Integer> money = new AtomicStampedReference<>(accountMoney, 0);
-
+    //AtomicStampedReference 会创建一个时间戳，能解决 ABA 问题
     /**
      * 模拟2个线程同时更新后台数据库，为用户充值
      */
