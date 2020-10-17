@@ -27,7 +27,7 @@ public class FastQuery {
     }
 
     public static void main(String[] args) {
-        int[] arr={4,7,3,6,8,9,2,3,1,0};
+        int[] arr={3,45,34,765,76,9,2,69};
         fastQuery(arr,0,arr.length-1);
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+"  ");
