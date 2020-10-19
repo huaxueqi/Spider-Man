@@ -1,13 +1,6 @@
 package huangrenhe;
 
-import com.sun.javafx.collections.MappingChange;
-import com.sun.xml.internal.xsom.impl.scd.Iterators;
-import shejimoshi.迭代器模式.Iterator;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Bianli {
     public static void main(String[] args) {
@@ -15,7 +8,7 @@ public class Bianli {
         arrayList.add(1);
         arrayList.add(2);
 
-        Iterator iterator = (Iterator) arrayList.iterator();
+        Iterator iterator = arrayList.iterator();
         while (iterator.hasNext()){
             int a = (int) iterator.next();
             System.out.println(a);
