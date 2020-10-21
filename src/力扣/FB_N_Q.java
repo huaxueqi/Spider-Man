@@ -3,6 +3,7 @@ package 力扣;
 import java.util.Arrays;
 
 public class FB_N_Q {
+    //斐波那契数列
     public static void main(String[] args) {
         FB_N_Q.shuzu(10);
     }

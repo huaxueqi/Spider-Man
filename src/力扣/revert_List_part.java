@@ -13,7 +13,7 @@ public class revert_List_part {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        ListNode Q = revert_List_part.reverseBetween1(l1, 4);
+        ListNode Q = revert_List_part.reverseBetween1(l1, 6);
         while (Q != null) {
             System.out.print(Q.val + "   ");
             Q = Q.next;
@@ -54,10 +54,10 @@ public class revert_List_part {
         ListNode g = dummyHead;
         ListNode p = dummyHead.next;
         for (int i = 0; i < n - 1; i++) {
-            ListNode removed = p.next;
-            p.next = p.next.next;
-            removed.next = g.next;
-            g.next = removed;
+            ListNode removed = p.next; //删除P后面的节点
+            p.next = p.next.next;      //指向下一个
+            removed.next = g.next;     //连接节点
+            g.next = removed;          //插入到 g 的后面
         }
         return dummyHead.next;
     }

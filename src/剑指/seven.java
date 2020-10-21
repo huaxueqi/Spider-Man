@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class seven {
+    //菲波那切数列
     public static void main(String[] args) {
          seven.a(2).forEach(l->{
              System.out.print(l+" ");
