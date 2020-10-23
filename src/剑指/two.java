@@ -2,6 +2,10 @@ package 剑指;
 
 import java.util.function.Function;
 public class two {
+    /**
+     * 替换空格
+     * @param args
+     */
     public static void main(String[] args) {
       System.out.println(two.replaceBlack("dsgasgd adgas asdgas adsg "));
         String content = "Hello JDK8";
