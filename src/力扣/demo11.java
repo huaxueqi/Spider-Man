@@ -1,6 +1,9 @@
 package 力扣;
 
 public class demo11 {
+    /*
+       编写一个函数，检查输入的链表是否是回文的。
+     */
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         ListNode l2 = new ListNode(2);

@@ -5,8 +5,10 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
 
 class H2O {
-
-    private CyclicBarrier barrier = new CyclicBarrier(3, new Runnable() {
+    /**
+     *  1117. H2O 生成
+     */
+    private final CyclicBarrier barrier = new CyclicBarrier(3, new Runnable() {
         @Override
         public void run() {
             semaphoreH.release(2);
@@ -14,8 +16,8 @@ class H2O {
         }
     });
 
-    private Semaphore semaphoreH;
-    private Semaphore semaphoreO;
+    private final Semaphore semaphoreH;
+    private final Semaphore semaphoreO;
 
     public H2O() {
         semaphoreH = new Semaphore(2);

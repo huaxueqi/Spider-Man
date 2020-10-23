@@ -1,6 +1,10 @@
 package 力扣;
 
 public class revert_List_part {
+    /**
+     * 反转链表的一部分
+     * @param args
+     */
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         ListNode l2 = new ListNode(2);

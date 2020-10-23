@@ -4,49 +4,50 @@ import java.util.Arrays;
 
 public class 逆序对 {
     /**
-     在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。
-     输入一个数组，求出这个数组中的逆序对的总数。
+     * 在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。
+     * 输入一个数组，求出这个数组中的逆序对的总数。
      */
     public static void main(String[] args) {
-        int[] a ={5,1,4,6,7,9,8,3};
-        逆序对.merge(a,0,a.length-1);
+        int[] a = {5, 1, 4, 6, 7, 9, 8, 3};
+        逆序对.merge(a, 0, a.length - 1);
     }
+
     public int reversePairs(int[] nums) {
 
-        if (nums.length<=1)
+        if (nums.length <= 1)
             return 0;
-        return sortMergeRecursionHelper(nums,0,nums.length-1);
+        return sortMergeRecursionHelper(nums, 0, nums.length - 1);
     }
 
-    public int sortMergeRecursionHelper(int[] nums, int left, int right){
-        if (left==right)
+    public int sortMergeRecursionHelper(int[] nums, int left, int right) {
+        if (left == right)
             return 0;
-        int mid = left+(right-left)/2;
-        int l = sortMergeRecursionHelper(nums,left,mid);//记录左边的结果
-        int r = sortMergeRecursionHelper(nums,mid+1,right);//记录右边的结果
+        int mid = left + (right - left) / 2;
+        int l = sortMergeRecursionHelper(nums, left, mid);//记录左边的结果
+        int r = sortMergeRecursionHelper(nums, mid + 1, right);//记录右边的结果
 
-        return l+r+mergeArr(nums,left,mid,right);//左加右加当前
+        return l + r + mergeArr(nums, left, mid, right);//左加右加当前
     }
 
-    public int mergeArr(int[] nums, int left, int mid, int right){
-        int[] temp = new int[right-left+1];
-        int i = left, j = mid+1, k=0;
+    public int mergeArr(int[] nums, int left, int mid, int right) {
+        int[] temp = new int[right - left + 1];
+        int i = left, j = mid + 1, k = 0;
         int count = 0;
-        while (i<=mid && j<=right){
-            if (nums[i] <= nums[j]){
+        while (i <= mid && j <= right) {
+            if (nums[i] <= nums[j]) {
                 temp[k++] = nums[i++];
-            }else {
+            } else {
                 temp[k++] = nums[j++];
-                count += mid-i+1;
+                count += mid - i + 1;
             }
         }
-        while (i<=mid)
+        while (i <= mid)
             temp[k++] = nums[i++];
-        while (j<=right)
+        while (j <= right)
             temp[k++] = nums[j++];
 
         int index = 0;
-        while (left<=right){
+        while (left <= right) {
             nums[left++] = temp[index++];
         }
         return count;
@@ -61,16 +62,16 @@ public class 逆序对 {
 
         int[] temp = new int[end - start + 1];
         int i = start, j = mid + 1, k = 0;
-        while(i <= mid && j <= end){
+        while (i <= mid && j <= end) {
             temp[k++] = arr[i] <= arr[j] ? arr[i++] : arr[j++];
         }
-        while(i <= mid)
+        while (i <= mid)
             temp[k++] = arr[i++];
-        while(j <= end)
+        while (j <= end)
             temp[k++] = arr[j++];
         //System.arraycopy(temp, 0, arr, start, end);
         int index = 0;
-        while (start<=end){
+        while (start <= end) {
             arr[start++] = temp[index++];
         }
         System.out.println(Arrays.toString(arr));

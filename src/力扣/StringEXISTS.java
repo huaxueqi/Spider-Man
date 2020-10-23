@@ -1,15 +1,20 @@
 package 力扣;
 
 class StringEXISTS {
+
     public static void main(String[] args) {
         StringEXISTS s = new StringEXISTS();
-        System.out.println(s.oneEditAway("pales", "ple"));
-        s.a();
-
+        //s.a();
+        System.out.println(s.isUnique("abcdef"));
+        System.out.println(s.CheckPermutation("abc", "abc"));
+        System.out.println(s.replaceSpaces("a  b  c"));
+        System.out.println(s.canPermutePalindrome("abcbac"));
+        System.out.println(s.oneEditAway("pales", "pleass"));
     }
 
+    //判断字符串里有没有重复字符
     public boolean isUnique(String astr) {
-        int a[] = new int[1000];
+        int[] a = new int[1000];
         for (char ch : astr.toCharArray()) {
             a[ch]++;
             if (a[ch] > 1) {
@@ -19,6 +24,7 @@ class StringEXISTS {
         return true;
     }
 
+    //判断两个字符是否一样
     public boolean CheckPermutation(String s1, String s2) {
         int l1 = s1.length();
         int l2 = s2.length();
@@ -37,12 +43,13 @@ class StringEXISTS {
         return true;
     }
 
-    public String replaceSpaces(String S, int length) {
+    //字符串替换空格
+    public String replaceSpaces(String S) {
         if (S == null) {
             return null;
         }
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < S.length(); i++) {
             if (S.charAt(i) == ' ') {
                 sb.append("%20");
             } else {
@@ -52,6 +59,7 @@ class StringEXISTS {
         return new String(sb);
     }
 
+    //判断是否回文
     public boolean canPermutePalindrome(String s) {
         int[] a = new int[128];
         for (char ch : s.toCharArray()) {
@@ -59,16 +67,14 @@ class StringEXISTS {
         }
         int flag = 0;
         for (int i : a) {
-            if (i % 2 == 1) {
+            if (i % 2 == 1) {//是奇数
                 flag++;
             }
         }
-        if (flag <= 1) {
-            return true;
-        }
-        return false;
+        return flag <= 1;
     }
 
+    //
     public boolean oneEditAway(String first, String second) {
         //判断长度差别是否满足一位以内
         int a = first.length() - second.length();
