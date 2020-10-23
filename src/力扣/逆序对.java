@@ -3,6 +3,10 @@ package 力扣;
 import java.util.Arrays;
 
 public class 逆序对 {
+    /**
+     在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。
+     输入一个数组，求出这个数组中的逆序对的总数。
+     */
     public static void main(String[] args) {
         int[] a ={5,1,4,6,7,9,8,3};
         逆序对.merge(a,0,a.length-1);
