@@ -9,16 +9,23 @@ public class four {
     public static void main(String[] args) {
         four f = new four();
         // 前序遍历结果
-        int[] a = {1, 2, 4, 7, 3, 5, 6, 8};
+        //int[] a = {1, 2, 4, 7, 3, 5, 6, 8};
         // 中序遍历结果
-        int[] b = {4, 7, 2, 1, 5, 3, 8, 6};
-        TreeNode root = f.solution(a, b);
+        //int[] b = {4, 7, 2, 1, 5, 3, 8, 6};
+
+        int[] a = {3, 9, 20, 15, 7};
+        // 中序遍历结果
+        int[] b = {9, 3, 15, 20, 7};
+        /*TreeNode root = f.solution(a, b);
         f.Print(root).forEach(l -> {
             System.out.print(l + " ");
-        });
+        });*/
+        //System.out.println();
+        f.preorder(f.solution(a, b));
 
     }
-    //已知前序、中序，求后序遍历
+
+    //已知前序、中序，重建这颗树
     public TreeNode solution(int[] a, int[] b) {
         if (a == null || b == null || a.length == 0 || b.length == 0) {
             return null;
@@ -26,7 +33,7 @@ public class four {
         if (a.length != b.length) {
             return null;
         }
-        TreeNode root = new TreeNode(a[0]);
+        TreeNode root = new TreeNode(a[0]);//a[0]是根节点
         for (int i = 0; i < a.length; i++) {
             if (a[0] == b[i]) {
                 root.left = solution(Arrays.copyOfRange(a, 1, i + 1), Arrays.copyOfRange(b, 0, i));
@@ -35,13 +42,14 @@ public class four {
         }
         return root;
     }
+
     //前序遍历
     public void preorder(TreeNode root) {
         if (root == null)
             return;
+        System.out.print(root.val + "  ");
         preorder(root.left);
         preorder(root.right);
-        System.out.print(root.val + "  ");
     }
 
     //树的层次遍历

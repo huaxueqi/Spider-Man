@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
 public class Demo2 {
 
     static AtomicIntegerArray pageRequest = new AtomicIntegerArray(new int[10]);
+
     /**
      * 模拟访问一次
      *
