@@ -36,7 +36,7 @@ public class four {
         TreeNode root = new TreeNode(a[0]);//a[0]是根节点
         for (int i = 0; i < a.length; i++) {
             if (a[0] == b[i]) {
-                root.left = solution(Arrays.copyOfRange(a, 1, i + 1), Arrays.copyOfRange(b, 0, i));
+                root.left = solution(Arrays.copyOfRange(a, 1, i + 1), Arrays.copyOfRange(b, 0, i));//复制数组，包含下标，不包含上标
                 root.right = solution(Arrays.copyOfRange(a, i + 1, a.length), Arrays.copyOfRange(b, i + 1, b.length));
             }
         }
