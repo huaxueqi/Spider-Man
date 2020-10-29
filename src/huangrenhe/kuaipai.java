@@ -3,9 +3,9 @@ package huangrenhe;
 public class kuaipai {
     public static void main(String[] args) {
        int[] arr={3,45,34,765,76,9,2,69};
-       kuaipai.kai_Pac(arr,0,arr.length-1);
+       kuaipai.b(arr,0,arr.length-1);
        for (int i=0;i<arr.length;i++){
-           System.out.println(arr[i]+"");
+           System.out.print(arr[i]+"  ");
        }
     }
 
@@ -29,6 +29,25 @@ public class kuaipai {
        arr[j]=base;
        kai_Pac(arr,left,i-1);
        kai_Pac(arr,j+1,right);
+    }
 
+   static  void b(int[] a, int left , int right){
+        if(left>right) return;
+        int i=left;
+        int j=right;
+        int bash=a[left];
+        while(i!=j){
+            while(i<j && a[j] >=bash )
+                j--;
+            while(i<j && a[i]<=bash)
+                i++;
+            int t=a[i];
+            a[i]=a[j];
+            a[j]=t;
+        }
+        a[left]=a[i];
+        a[i]=bash;
+        b(a,left,i-1);
+        b(a,i+1,right);
     }
 }
