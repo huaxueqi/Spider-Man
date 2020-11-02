@@ -28,19 +28,18 @@ public class Charu {
     }
 
     static void b(int[] a) {
-        for(int i=0;i<a.length;i++){
-            int k=i;
-            while(k>0){
-                if(a[k]<a[k-1]){
-                    int t=a[k];
-                    a[k]=a[k-1];
-                    a[k-1]=t;
-                    k--;
-                }else{
-                    break;
-                }
-            }
-        }
+      for(int i=0;i<a.length;i++){
+          for(int k=i;k>0;k--){
+              if(a[k]<a[k-1]){
+                  int t=a[k];
+                  a[k]=a[k-1];
+                  a[k-1]=t;
+              }else{
+                  break;
+              }
+          }
+      }
+
     }
 
 

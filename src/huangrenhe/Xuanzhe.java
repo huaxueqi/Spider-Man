@@ -4,7 +4,6 @@ public class Xuanzhe {
     public static void main(String[] args) {
         int[] arr = {3, 6, 7, 2, 7, 1, 9, 0, 45, 67, 23};
         Xuanzhe.b(arr);
-        System.out.println();
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "   ");
         }
@@ -33,19 +32,19 @@ public class Xuanzhe {
 
 
     static void b(int[] a) {
-         int k;
-         for(int i=0;i<a.length;i++){
-             k=i;
-             for(int j=i+1;j<a.length;j++){
-                 if(a[j]<a[k]){
-                     k=j;
-                 }
-             }
-             if(i != k){
-                 int t=a[i];
-                 a[i]=a[k];
-                 a[k]=t;
-             }
-         }
+       int min;
+       for(int i=0;i<a.length;i++){
+           min=i;
+           for(int j=i+1;j<a.length;j++){
+               if(a[min]>a[j]){
+                   min=j;
+               }
+           }
+           if(min !=i){
+               int t=a[min];
+               a[min]=a[i];
+               a[i]=t;
+           }
+       }
     }
 }
