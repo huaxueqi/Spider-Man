@@ -32,19 +32,18 @@ public class Xuanzhe {
 
 
     static void b(int[] a) {
-       int min;
-       for(int i=0;i<a.length;i++){
-           min=i;
-           for(int j=i+1;j<a.length;j++){
-               if(a[min]>a[j]){
-                   min=j;
-               }
-           }
-           if(min !=i){
-               int t=a[min];
-               a[min]=a[i];
-               a[i]=t;
-           }
-       }
+        int min;
+        for (int i = 0; i < a.length; i++) {
+            min = i;
+            for (int j = i; j < a.length; j++) {
+                if (a[min] > a[j])
+                    min = j;
+            }
+            if (min != i) {
+                int t = a[i];
+                a[i] = a[min];
+                a[min] = t;
+            }
+        }
     }
 }
