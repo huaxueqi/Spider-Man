@@ -37,22 +37,22 @@ public class 接雨水 {
     }
 
     static int jiehuafa(int[] a) {
-        if (a.length == 0) return 0;
-        int i = 0, j = a.length - 1;
-        int ans = 0;
-        int lmax = a[i], rmax = a[j];
-        while (i <= j) {
-            lmax = max(lmax, a[i]);
-            rmax = max(rmax, a[j]);
-            if (lmax < rmax) {
-                ans += lmax - a[i];
-                i++;
-            } else {
-                ans += rmax - a[j];
-                j--;
-            }
-        }
-        return ans;
+       if(a.length==0) return 0;
+       int i=0,j=a.length-1;
+       int ans=0;
+       int lmax=a[i],rmax=a[j];
+       while (i<=j){
+           lmax=max(lmax,a[i]);
+           rmax=max(rmax,a[j]);
+           if(lmax<rmax){
+               ans+=lmax-a[i];
+               i++;
+           }else{
+               ans+=rmax-a[j];
+               j--;
+           }
+       }
+       return ans;
     }
 
 }

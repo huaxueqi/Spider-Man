@@ -17,6 +17,7 @@ public class StringSUM {
         String[] s1 ={"2","1","+","3","*"};
         System.out.println(StringSUM.getResult(c));
         System.out.println(StringSUM.getResult1(s));
+        System.out.println(StringSUM.sums(s));
     }
 
     public static int getResult(List<Character> list) {
@@ -76,5 +77,22 @@ public class StringSUM {
         }
         return stack.pop();
     }
-
+    static int sums(String str){
+      Stack<Integer> stack=new Stack<>();
+      for(char c:str.toCharArray()){
+          if(c=='+'){
+              stack.push(stack.pop()+stack.pop());
+          }else if(c=='-'){
+              stack.push(-stack.pop()+stack.pop());
+          }else if(c=='*'){
+              stack.push(stack.pop()*stack.pop());
+          }else if(c=='/'){
+              int nums=stack.pop();
+              stack.push(stack.pop()/nums);
+          }else{
+              stack.push(c-'0');
+          }
+      }
+      return stack.pop();
+    }
 }
