@@ -16,7 +16,7 @@ public class demo7 {
         l4.next = l5;
         l5.next = l6;
         int k = 6;
-        Integer Q= demo7.kthToLast(l1,k);
+        Integer Q= demo7.a(l1,k);
         if( Q == null)
             System.out.println("为空");
         else
@@ -40,6 +40,18 @@ public class demo7 {
         return i < k ? null : q.val;
     }
 
+    static int a(ListNode head,int k){
+        ListNode p,q;
+        p=q=head;
+        int i=0;
+        for(;p!=null;i++){
+            if(i>=k){
+                q=q.next;
+            }
+            p=p.next;
+        }
+        return i<k?null:q.val;
+    }
 
     //删除链表中间的节点
     public static ListNode kthToLast(ListNode head) {
