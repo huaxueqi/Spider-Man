@@ -18,7 +18,7 @@ public class fifty_six {
         while(fast!=null){
             slow = slow.next;
             fast = fast.next.next;
-            if(slow.val==fast.val){//有环
+            if(slow.val!=null ||fast.val != null){//有环
                 slow = pHead;//其中一个退回到出发点
                 while(slow.val!=fast.val){
                     slow = slow.next;
