@@ -1,35 +1,28 @@
 package huangrenhe;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Test {
 
-    public static void FastQuery(int[] arr,int left,int right){
-        if (left>right){return;}
-        int i=left;
-        int j=right;
-        int base=arr[left];
-        while (i!=j){
-            while (arr[j]>=base&&i<j){
-                j--;
-            }
-            while (arr[i]<=base&&i<j){
-                i++;
-            }
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-        }
-        arr[left]=arr[i];
-        arr[i]=base;
+    public static boolean isIpAddress(String address){
+        //IPv4的ip地址格式：（1~255）.（0~255）.（0~255）.（0~255）
 
-        FastQuery(arr,left,i-1);
-        FastQuery(arr,j+1,right);
+
+        String regex = "(((2[0-4]d)|(25[0-5]))|(1d{2})|([1-9]d)|(d))[.](((2[0-4]d)|(25[0-5]))|(1d{2})|([1-9]d)|(d))[.]"
+                + "(((2[0-4]d)|(25[0-5]))|(1d{2})|([1-9]d)|(d))[.](((2[0-4]d)|(25[0-5]))|(1d{2})|([1-9]d)|(d))";
+
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(address);
+
+        Pattern compile = Pattern.compile(regex);//正则
+        Matcher matcher = compile.matcher(address);//去掉大小写
+        return m.matches();
+
     }
 
-    public static void main(String[] args) {
-        int[] arr={6,4,8,9};
-        FastQuery(arr,0,arr.length-1);
-        for (int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
+        public static void main(String[] args) {
+        String str="10.30.126.58";
+        Test.isIpAddress(str);
     }
 }

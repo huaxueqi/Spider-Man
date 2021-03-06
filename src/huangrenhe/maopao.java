@@ -6,13 +6,10 @@ public class maopao {
         maopao.maoPao(arr);
     }
     public static  void maoPao(int[] arr){
-        int i=0;
-        int j=0;
-        int tmp;
-        for (i=0;i<arr.length;i++){
-            for (j=0;j<arr.length;j++){
+        for (int i=0;i<arr.length;i++){
+            for (int j=0;j<arr.length;j++){
                 if (arr[i]<arr[j]){
-                    tmp=arr[i];
+                  int tmp=arr[i];
                     arr[i]=arr[j];
                     arr[j]=tmp;
                 }
