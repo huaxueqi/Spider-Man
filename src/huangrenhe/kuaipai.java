@@ -34,22 +34,25 @@ public class kuaipai {
     }
 
     static void b(int[] a, int left, int right) {
-        if (left > right) return;
-        int i = left;
-        int j = right;
-        int mid = a[left];
-        while (i != j) {
-            while (i < j && a[j] >= mid)
+        if(left>right)
+            return;
+        int i=left;
+        int j=right;
+        int base=a[left];
+        while(i!=j){
+            while(a[j]>=base && i<j){
                 j--;
-            while (i < j && a[i] <= mid)
+            }
+            while(a[i]<=base && i<j){
                 i++;
-            int t = a[i];
-            a[i] = a[j];
-            a[j] = t;
+            }
+            int t=a[i];
+            a[i]=a[j];
+            a[j]=t;
         }
-        a[left] = a[i];
-        a[i] = mid;
-        b(a, left, i - 1);
-        b(a, i + 1, right);
+        a[left]=a[i];
+        a[j]=base;
+        b(a,left,i-1);
+        b(a,j+1,right);
     }
 }

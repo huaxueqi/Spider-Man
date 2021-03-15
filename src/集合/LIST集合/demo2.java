@@ -1,21 +1,20 @@
 package 集合.LIST集合;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class demo2 {
     public static void main(String[] args) {
-     List l= new ArrayList();
-     l.add("111");
-     l.add("222");
-     l.add("222");
-     demo2.frequencyOfListElements(l).forEach((k,v)->{
-         System.out.println(k+"  "+v);
-     });
+        Vector t = new Vector();
+        List l = new ArrayList();
+        l.add("111");
+        l.add("222");
+        l.add("222");
+        demo2.frequencyOfListElements(l).forEach((k, v) -> {
+            System.out.println(k + "  " + v);
+        });
     }
-    public static Map<String,Integer> frequencyOfListElements( List<String> items ) {
+
+    public static Map<String, Integer> frequencyOfListElements(List<String> items) {
         if (items == null || items.size() == 0) return null;
         Map<String, Integer> map = new HashMap<String, Integer>();
         for (String temp : items) {

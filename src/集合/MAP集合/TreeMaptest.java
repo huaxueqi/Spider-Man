@@ -1,9 +1,12 @@
 package 集合.MAP集合;
 
 import java.util.TreeMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TreeMaptest {
     public static void main(String[] args) {
+        ConcurrentHashMap map=new ConcurrentHashMap();
+        map.put(1,1);
         TreeMap t=new TreeMap();
         t.put(1,"ag");
         t.put(5,"ag");
