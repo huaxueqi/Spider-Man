@@ -27,11 +27,30 @@ public class FastQuery {
     }
 
     public static void main(String[] args) {
-        int[] arr={3,45,34,765,76,9,2,69};
+       /* int[] arr={3,45,34,765,76,9,2,69};
         fastQuery(arr,0,arr.length-1);
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+"  ");
-        }
+        }*/
+
+       String s="google";
+        FirstNotRepeatingChar(s);
     }
+        public static  int FirstNotRepeatingChar(String str) {
+            int []a=new int[150];
+            for(int i=0;i<str.length();i++){
+                a[str.charAt(i)]++;
+
+            }
+            for(int j=0;j<a.length;j++){
+                if(a[j]==1){
+                    char c=(char)a[j];
+                    System.out.print(111);
+                    System.out.println(c);
+                    return str.indexOf(c);
+                }
+            }
+            return -1;
+        }
 }
 
