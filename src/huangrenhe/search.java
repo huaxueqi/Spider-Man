@@ -18,4 +18,15 @@ public class search {
         return -1;
     }
 
+
+    int a(int[] b, int t){
+        int i=0,j=b.length-1;
+        while(i<=j){
+            int mid=(i+j)/2;
+            if(b[mid]>t) j=mid-1;
+            else if(b[mid]<t) i=mid+1;
+            else return mid;
+        }
+        return -1;
+    }
 }

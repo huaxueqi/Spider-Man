@@ -14,7 +14,7 @@ public class sixteen {
         l2.next = l3;
         l3.next = l4;
         l4.next = l5;
-        ListNode Q = sixteen.revertList(l1);
+        ListNode Q = sixteen.a(l1);
         while (Q != null) {
             System.out.print(Q.val + "   ");
             Q = Q.next;
@@ -33,6 +33,19 @@ public class sixteen {
         }
         return pre;
     }
+    static ListNode a(ListNode node){
+       if(node ==null)
+           return null;
+       ListNode pre=null;
+       while(node != null){
+           ListNode tmp=node.next;
+           node.next=pre;
+           pre=node;
+           node=tmp;
+       }
+       return pre;
+    }
+
 
     public static ListNode revertList(ListNode node) {
         if (node == null || node.next == null) return node;
