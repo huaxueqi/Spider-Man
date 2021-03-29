@@ -1,6 +1,8 @@
+package 集合.MAP集合;
+
 import java.util.*;
 
-public class test {
+public class mapCollections {
     public static void main(String[] args) {
        Integer []a={1,1,1,6,6,7,7,7,7,9,3};
        List list= Arrays.asList(a);
