@@ -12,6 +12,9 @@ public class demo2 {
         demo2.frequencyOfListElements(l).forEach((k, v) -> {
             System.out.println(k + "  " + v);
         });
+       /* Collections.synchronizedList();
+        Collections.synchronizedMap()*/
+
     }
 
     public static Map<String, Integer> frequencyOfListElements(List<String> items) {
